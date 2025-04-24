@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">       
+            <h1> Botanika </h1>
+        </div>
+       
+        <h2>Contactez-nous</h2>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A propos</a></li>                
+            </ul>
+        </nav>
+        <button id="toggle-theme">Bouton Dark Mode</button>
+    </header> 
+
+<p id="p1">Nous sommes là pour répondre à toutes vos questions.</p> 
+    <form action="" method="POST">
+        <!-- Champ pour le nom de l'utilisateur -->
+        <label for="name">Nom :</label>
+        <!-- Champ pour nom utilisateur -->
+        <input type="text" id="name" name="name" required>
+        <!-- Champ text pour entrer le nom -->
+        <label for="email">Email :</label>
+        <!-- Champ pour l'email de l'utilisateur -->
+        <input type="email" id="email" name="email" required>
+        <!-- Champ pour entrer l'email -->
+        <label for="subject">Sujet :</label>
+        <!-- Champ pour le sujet du message -->
+        <input type="text" id="subject" name="subject">
+        <!-- Champ pour entrer le sujet -->
+        <label for="message">Message :</label>
+        <!-- Champ pour le message de l'utilisateur -->
+        <textarea id="message" name="message" required></textarea>
+        <!-- zone de texte pour entrer le message -->
+        <button type="submit">Envoyer</button>
+        <!-- bouton pour soumettre le formulaire -->
+    </form>
+
+    <footer>
+        <p id="pfooter">&copy; 2025 Botanika | Tous droits réservés.</p>
+        <a href="contact.html" id="btn">Nous Contacter</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
